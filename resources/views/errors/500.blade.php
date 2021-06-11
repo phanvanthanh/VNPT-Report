@@ -1,0 +1,41 @@
+@extends('layouts.template.index')
+
+@section('content')
+<!-- HOME -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="wrapper-page">
+
+                            <div class="account-pages">
+                                <div class="account-box">
+                                    <div class="account-logo-box">
+                                        <h2 class="text-uppercase text-center">
+                                            <a href="index.html" class="text-success">
+                                                <span><img src="assets/images/logo_dark.png" alt="" height="18"></span>
+                                            </a>
+                                        </h2>
+                                    </div>
+                                    <div class="account-content text-center">
+                                        <h1 class="text-error">500</h1>
+                                        <h4 class="text-uppercase text-danger mt-3">Internal Server Error</h4>
+                                        <p class="text-muted mt-3">Why not try refreshing your page? or you can contact <a href="" class="text-primary"><b>Support</b></a></p>
+
+                                        <a class="btn btn-md btn-block btn-gradient waves-effect waves-light mt-3" href="/"> Return Home</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end card-box-->
+
+
+                        </div>
+                        <!-- end wrapper -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END HOME -->
+        @endsection

@@ -1,0 +1,7 @@
+127.0.0.1       vnpt-report.abc
+Include conf/extra/httpd-vhosts.conf
+<VirtualHost *:80>
+    ServerAdmin vnpt-report.abc
+    DocumentRoot "C:/xampp/htdocs/QLBaoCao"
+    ServerName vnpt-report.abc
+</VirtualHost>
